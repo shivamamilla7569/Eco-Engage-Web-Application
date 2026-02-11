@@ -1,0 +1,91 @@
+/* EV Container */
+.ev-container {
+    text-align: center;
+    background: linear-gradient(to right, #85e085, #ffffff);
+    height: 100vh;
+    padding: 40px;
+    width: 100vw;
+  }
+  
+  /* Title & Subtitle */
+  .ev-title {
+    font-size: 32px;
+    font-weight: bold;
+    color: #026e00;
+  }
+  
+  .ev-subtitle {
+    font-size: 18px;
+    color: #4a4a4a;
+    margin-bottom: 30px;
+  }
+  
+  /* Sections */
+  .ev-section {
+    background: white;
+    width: 80%;
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 2px 4px 10px rgba(0, 0, 0, 0.15);
+    text-align: left;
+  }
+  
+  .ev-section h2 {
+    font-size: 22px;
+    color: #026e00;
+    margin-bottom: 10px;
+  }
+  
+  .ev-section ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .ev-section ul li {
+    font-size: 16px;
+    margin: 8px 0;
+  }
+  
+  /* Table Styling */
+  .ev-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+  }
+  
+  .ev-table th,
+  .ev-table td {
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: center;
+  }
+  
+  .ev-table th {
+    background-color: #026e00;
+    color: white;
+  }
+  
+  .ev-table td {
+    background-color: #f9f9f9;
+  }
+  
+  /* Back Button */
+  .ev-back-button {
+    margin-top: 20px;
+    background-color: #d9534f;
+    color: white;
+    border: none;
+    padding: 10px 16px;
+    font-size: 14px;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.2s;
+  }
+  
+  .ev-back-button:hover {
+    background-color: #c9302c;
+    transform: scale(1.05);
+  }
+  

@@ -1,0 +1,46 @@
+
+/* Call-to-Action Button */
+.cta-btn {
+    background: linear-gradient(135deg, #4CAF50, #2E7D32); /* Eco-friendly green shades */
+    color: white;
+    padding: 14px 24px;
+    font-size: 18px;
+    font-weight: bold;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    position: relative;
+    
+    overflow: hidden;
+    transition: transform 0.3s ease, box-shadow 0.3s ease, background 0.4s ease-in-out;
+    display: inline-block;
+}
+
+/* Hover Effect */
+.cta-btn:hover {
+    transform: scale(1.05); /* Slightly enlarges */
+    box-shadow: 0 8px 20px rgba(76, 175, 80, 0.4);
+    background: linear-gradient(135deg, #2E7D32, #1B5E20);
+}
+
+/* Ripple Effect on Click */
+.cta-btn::after {
+    content: "";
+    position: absolute;
+    width: 300%;
+    height: 300%;
+    top: 50%;
+    left: 50%;
+    background: rgba(255, 255, 255, 0.3);
+    transition: width 0.6s ease, height 0.6s ease, opacity 0.6s ease;
+    transform: translate(-50%, -50%);
+    border-radius: 50%;
+    opacity: 0;
+}
+
+.cta-btn:active::after {
+    width: 0%;
+    height: 0%;
+    opacity: 1;
+    transition: 0s;
+}

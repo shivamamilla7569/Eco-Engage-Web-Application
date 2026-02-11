@@ -1,0 +1,62 @@
+/* Eco-Friendly Transport Page */
+.transport-container {
+    text-align: center;
+    background: linear-gradient(to right, #85e085, #ffffff);
+    min-height: 100vh;
+    padding: 40px;
+    width: 100vw;
+  }
+  
+  .transport-title {
+    font-size: 32px;
+    font-weight: bold;
+    color: #026e00;
+  }
+  
+  .transport-description {
+    font-size: 18px;
+    color: #4a4a4a;
+    margin-bottom: 30px;
+  }
+  
+  /* Transport Options */
+  .transport-options {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+  }
+  
+  .transport-card {
+    background: white;
+    width: 280px;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 2px 4px 10px rgba(0, 0, 0, 0.15);
+    text-align: center;
+    transition: transform 0.3s, box-shadow 0.3s;
+  }
+  
+  .transport-card:hover {
+    transform: translateY(-8px);
+    box-shadow: 4px 6px 15px rgba(0, 0, 0, 0.2);
+  }
+  
+  /* Back Button */
+  .back-button {
+    margin-top: 20px;
+    background-color: #d9534f;
+    color: white;
+    border: none;
+    padding: 10px 16px;
+    font-size: 14px;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.2s;
+  }
+  
+  .back-button:hover {
+    background-color: #c9302c;
+    transform: scale(1.05);
+  }
+  

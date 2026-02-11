@@ -1,0 +1,60 @@
+.biking-walking-container {
+    width: 100vw;
+    height: 100vh;
+    margin: 0 auto;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to right, #85e085, #ffffff);
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .title {
+    text-align: center;
+    color: #228b22;
+    font-size: 2rem;
+    margin-bottom: 10px;
+  }
+  
+  .intro {
+    text-align: center;
+    font-size: 1.2rem;
+    color: #444;
+    margin-bottom: 20px;
+  }
+  
+  h2 {
+    color: #228b22;
+    margin-top: 20px;
+  }
+  
+  ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  ul li {
+    background: #d0f0c0;
+    margin: 10px 0;
+    padding: 12px;
+    border-radius: 5px;
+    font-size: 1rem;
+  }
+  
+  ul li strong {
+    color: #006400;
+  }
+  
+  .contribution, .future {
+    margin-top: 20px;
+    padding: 15px;
+    background: #e6ffe6;
+    border-left: 5px solid #228b22;
+    border-radius: 5px;
+  }
+  
+  .future {
+    background: #e3fceb;
+    border-left: 5px solid #1e90ff;
+  }
+  

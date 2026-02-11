@@ -1,0 +1,64 @@
+/* Environmental Awareness Hub Styles */
+.awareness-container {
+    background: linear-gradient(to right, #39e75f, #ffffff);
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 2px 4px 10px rgba(0, 0, 0, 0.15);
+    text-align: center;
+    max-width: 1500px;
+    margin: 40px auto;
+    width: 100vw;
+  }
+  
+  .awareness-title {
+    font-size: 24px;
+    font-weight: bold;
+    color: #026e00;
+    margin-bottom: 10px;
+  }
+  
+  .awareness-description {
+    font-size: 16px;
+    color: #4a4a4a;
+    margin-bottom: 20px;
+  }
+  
+  .awareness-section {
+    margin-top: 20px;
+    text-align: left;
+  }
+  
+  .awareness-section h3 {
+    font-size: 20px;
+    color: #026e00;
+    margin-bottom: 8px;
+  }
+  
+  .awareness-section ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .awareness-section ul li {
+    font-size: 14px;
+    margin: 8px 0;
+  }
+  
+  .awareness-section ul li a {
+    text-decoration: none;
+    color: #028a0f;
+    font-weight: bold;
+  }
+  
+  .video-container {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    flex-wrap: wrap;
+  }
+  
+  .video-container iframe {
+    border-radius: 8px;
+    border: none;
+  }
+  

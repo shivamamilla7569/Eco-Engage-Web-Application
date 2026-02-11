@@ -1,0 +1,59 @@
+.public-transport-container {
+    width: 100vw;
+    height: 100vh;
+    margin: 0 auto;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to right, #39e75f, #ffffff);
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .title {
+    text-align: center;
+    color: #471d94;
+    font-size: 2rem;
+    margin-bottom: 10px;
+  }
+  
+  .intro {
+    text-align: center;
+    font-size: 1.2rem;
+    color: #444;
+    margin-bottom: 20px;
+  }
+  
+  h2 {
+    color: #2c7a2c;
+    margin-top: 20px;
+  }
+  
+  ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  ul li {
+    margin: 10px 0;
+    padding: 12px;
+    border-radius: 5px;
+    font-size: 1rem;
+  }
+  
+  ul li strong {
+    color: #155724;
+  }
+  
+  .contribution, .future {
+    margin-top: 20px;
+    padding: 15px;
+    background: #7dc57f;
+    border-left: 5px solid #2c7a2c;
+    border-radius: 5px;
+  }
+  
+  .future {
+    background: #f0f8ff;
+    border-left: 5px solid #2b6cb0;
+  }
+  

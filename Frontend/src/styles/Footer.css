@@ -1,0 +1,9 @@
+/* Footer Styling */
+.footer {
+    width: 100%;
+    background: #004d00;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    font-size: 16px;
+}

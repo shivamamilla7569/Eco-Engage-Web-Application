@@ -1,0 +1,46 @@
+/* Trusted Section */
+.trusted-section {
+    text-align: center;
+    background: linear-gradient(135deg, #E3F2FD, #f4f4f4); /* Soft blue to light gray */
+    padding: 40px 20px;
+    border-radius: 10px;
+    width: 100%;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+/* Hover effect to add interactivity */
+.trusted-section:hover {
+    transform: scale(1.02);
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.15);
+}
+
+/* Text Styling */
+.trusted-section p {
+    font-size: 18px;
+    font-weight: bold;
+    color: #2E7D32; /* Eco-friendly dark green */
+    margin-bottom: 15px;
+}
+
+/* Icon Container */
+.icons {
+    display: flex;
+    justify-content: space-around;
+    font-size: 100px;   
+    margin-top: 15px;
+    color: #4CAF50; /* Green icons */
+}
+.icons span{
+    background: green;
+    border-radius: 100px;
+}
+/* Icon Hover Animation */
+.icons i {
+    transition: transform 0.3s ease, color 0.3s ease;
+}
+
+.icons i:hover {
+    transform: scale(1.2) rotate(10deg);
+    color: #2E7D32;
+}
