@@ -11,7 +11,7 @@ const EcoEngageDashboard = () => {
       <DashboardNavbar />
       <div className="dashboard-container">
         <h1 className="dashboard-title">
-          Welcome to Eco Engage! <span className="emoji">🌱</span>
+          Welcome to Eco Engage!!!! <span className="emoji">🌱</span>
         </h1>
         <p className="dashboard-subtitle">
           Make a difference by volunteering and promoting sustainability.
